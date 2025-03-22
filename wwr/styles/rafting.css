@@ -1,0 +1,77 @@
+:root{
+    --primary-color: #FFEBD6;
+    --secondary-color: #575A5F;
+    --accent1-color: #D3380D;
+    --accent2-color: #5488A0;
+}
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.big-shoulders {
+    font-family: "Big Shoulders", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 300;
+    font-style: normal;
+  } 
+ article img{
+    /* position: absolute; */
+    background-color: var(--accent2-color);
+    float: right;
+    height: 60px;
+    width: auto;
+}
+article p{
+
+}
+ h1{
+    color: var(--accent2-color);
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    position: relative;
+ }
+h1 p{
+    /* position: absolute; */
+}
+/* article img{
+    position: absolute;
+    float: right;
+    width: 50px;
+    height: auto;
+}
+article p {
+    color: var(--accent2-color);
+    position: absolute;
+} */
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* position: absolute; */
+}
+h2{
+    color: var(--accent1-color);
+    font-family: "Anton", sans-serif;
+}
+p {
+    color: var(--secondary-color);
+}
+.sociallinks {
+    text-decoration: none;
+}
+.sociallinks img {
+    width: 30px;
+    height: auto;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+body {
+    background-color: var(--primary-color);
+}
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
