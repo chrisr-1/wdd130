@@ -125,7 +125,7 @@ form {
 fieldset {
     border: 1px solid var(--secondary-color);
 }
-textarea, input[type="radio"] {
+textarea, input[type="radio"], input[type="text"] {
     width: 450px;
     text-align: left;
     display: grid;
