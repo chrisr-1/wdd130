@@ -20,22 +20,27 @@
     grid-template-columns: 30% 1fr 1fr 1fr 1fr;
     align-items: center;
     border-bottom: 2px solid black;
+    padding: 5px;
   }
-  .nav {
+  nav {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    padding: 0;
+    padding: 2em;
+    width: 300px;
   }
   .nav li {
     flex: 1 1 auto;
   }
-  .nav a {
-    display: block;
-    color: var(--accent1-color);
-    padding: 20px;
+  nav[class="pages"] a {
+    display: grid;
+    /* grid-template-rows: 1f 1f 1f 1f; */
+    justify-content: space-around;
+    color: var(--primary-color);
+    padding: 2px 10px 2px;
     text-decoration: none;
-    align-items: end;
+    background-color: var(--accent2-color);
+    border: 1px solid black;
   }
  article img {
     /* position: absolute; */
@@ -109,4 +114,78 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+form {
+    width: 480px;
+    display: grid;
+    margin: 20px auto 20px;
+    font-family: "Big Shoulders", sans-serif;
+    color: var(--secondary-color);
+}
+fieldset {
+    border: 1px solid var(--secondary-color);
+}
+textarea, input[type="radio"] {
+    width: 450px;
+    text-align: left;
+    display: grid;
+    /* grid-template-columns: 3f 1f; */
+}
+textarea, input {
+    margin: 5PX;
+}
+
+button {
+    margin: .5rem;
+    background-color: var(--accent2-color);
+    color: black;
+    width: 480px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 1em;
+    font-family: "Big Shoulders", sans-serif;
+}
+button:hover {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+}
+.information {
+    display: grid;
+    text-align: center;
+}
+.company-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* margin: 1rem;
+    padding: 20px; */
+}
+.employees {
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr 1fr;
+    font-family: "Big Shoulders", sans-serif;
+    color: var(--secondary-color);
+    vertical-align: bottom;
+    margin: 25px;
+}
+.employees h2 {
+    display: grid;
+    grid-row: 1;
+}
+.employees img {
+    display: grid;
+    grid-row: 2;
+    grid-template-rows: 1fr 1fr;
+    justify-content: left;
+    width: 200px;
+    margin: 2rem 0 1rem;
+    height: auto;
+    padding: 5px;
+}
+.map {
+    margin: 1rem;
+}
+.wireframe {
+    text-decoration: none;
+    color: var(--secondary-color);
 }

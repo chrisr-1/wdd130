@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chris Rakisits">
+    <meta name="description" content="contact page">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Company Name - Contact Us</title>
+</head>
+<body>
+    <header>
+        <img src="images/z-wwr-crossedoars.png" alt="Rafting Logo">
+        <nav class="pages">
+            <a href="index.html">Index</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="company-info">
+            <div class="information">
+                <h2>Company Information</h2>
+                <p>(123) 456-7890</p>
+                <p>email@email.com</p>
+                <p>525 S Center St
+                    Rexburg, ID 83460</p>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34566.64409449614!2d-111.79515197980886!3d43.81566503332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b01c2e76bc7%3A0x1c99fe9dbbdc48ad!2sSpencer%20W.%20Kimball%20Building%2C%20525%20S%20Center%20St%2C%20Rexburg%2C%20ID%2083460!5e0!3m2!1sen!2sus!4v1743786699905!5m2!1sen!2sus" width="400" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+            </div>
+        </section>
+        <section class="employees">
+            <h2>Employees</h2>
+                <figure>
+                    <img src="images/istockphoto-492320390-612x612.jpg" alt="Employee 1 photo">
+                    <figcaption>Employee 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/istockphoto-1287993133-612x612.jpg" alt="Employee 2 photo">
+                    <figcaption>Employee 2</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/istockphoto-177366676-612x612.jpg" alt="Employee 3 photo">
+                    <figcaption>Employee 3</figcaption>
+                </figure>
+        </section>
+        <form>
+                <fieldset>
+                    <legend>Contact Us</legend>
+                        <div class="form-item">
+                            <label for="name">Name:</label>
+                            <textarea id="name" name="name" rows="1" placeholder="Name"></textarea>
+                        </div>
+                        <div class="form-item">
+                            <label for="email">Email:</label>
+                            <textarea id="email" name="email" rows="1" placeholder="email@email.com"></textarea>
+                        </div>
+                        <div class="form-item">
+                            <label for="inquiry">General Inquiry</label>
+                            <input type="radio" id="inquiry" name="inquiry">
+                            <label for="reservation">Reservation</label>
+                            <input type="radio" id="reservation" name="reservation">
+                            <label for="suggestion">Website Suggestion</label>
+                            <input type="radio" id="suggestion" name="suggestion">
+                        </div>
+                        <div class="form-item">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Type message here..."></textarea>
+                        </div>
+                        <div class="form-item">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">"Please subscribe me to the monthly newsletter"</label>
+                        </div>
+                </fieldset>
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+    <footer>
+        <nav class="wireframe">
+            <a href="https://github.com/chrisr-1/wdd130/blob/777589881c05064a3dc52956cbc5554f1dadb46a/wwr/images/wireframe.drawio.png">Wireframe</a>
+        </nav>
+        <p>&copy; 2025 Company Name | Chris</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="Facebook">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/x.png" alt="X">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
